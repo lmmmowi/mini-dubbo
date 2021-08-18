@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>com.lmmmowi</groupId>
-            <artifactId>mini-dubbo-common</artifactId>
+            <artifactId>mini-dubbo-rpc</artifactId>
         </dependency>
 
         <dependency>

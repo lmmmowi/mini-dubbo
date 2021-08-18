@@ -10,12 +10,12 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>mini-dubbo-common</artifactId>
+    <artifactId>mini-dubbo-rpc</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
+            <groupId>com.lmmmowi</groupId>
+            <artifactId>mini-dubbo-common</artifactId>
         </dependency>
 
         <dependency>

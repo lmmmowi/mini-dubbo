@@ -10,12 +10,15 @@
     <version>${revision}</version>
 
     <modules>
-        <module>mini-dubbo-demo</module>
+        <module>mini-dubbo-rpc</module>
         <module>mini-dubbo-common</module>
+        <module>mini-dubbo-demo</module>
     </modules>
 
     <properties>
         <revision>1.0-SNAPSHOT</revision>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
 
         <logback.version>1.2.3</logback.version>
         <lombok.version>1.18.20</lombok.version>
@@ -23,6 +26,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.lmmmowi</groupId>
+                <artifactId>mini-dubbo-rpc</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.lmmmowi</groupId>
                 <artifactId>mini-dubbo-common</artifactId>

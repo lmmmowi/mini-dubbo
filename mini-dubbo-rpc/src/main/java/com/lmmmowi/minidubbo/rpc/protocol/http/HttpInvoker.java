@@ -1,12 +1,13 @@
-package com.lmmmowi.minidubbo.rpc.protocol;
+package com.lmmmowi.minidubbo.rpc.protocol.http;
 
 import com.lmmmowi.minidubbo.rpc.Invocation;
 import com.lmmmowi.minidubbo.rpc.Result;
 import com.lmmmowi.minidubbo.rpc.RpcResult;
+import com.lmmmowi.minidubbo.rpc.protocol.AbstractInvoker;
 
-public class DefaultInvoker<T> extends AbstractInvoker<T> {
+public class HttpInvoker<T> extends AbstractInvoker<T> {
 
-    public DefaultInvoker(Class<T> interfaceClass) {
+    public HttpInvoker(Class<T> interfaceClass) {
         super(interfaceClass);
     }
 
